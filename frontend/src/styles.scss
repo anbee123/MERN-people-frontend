@@ -2,7 +2,7 @@
 // VARIABLES
 // --------------------------
 $maincolor: rgb(223, 128, 177);
-$contrastcolor: white;
+$contrastcolor: rgb(235, 204, 214);
 
 @mixin white-text-black-bg {
   color: $contrastcolor;
@@ -62,6 +62,7 @@ button#delete {
   margin: auto;
   font-size: 1.3em;
   padding: 10px;
+ 
 }
 
 // --------------------------
