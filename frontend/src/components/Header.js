@@ -1,6 +1,13 @@
-const Header =()=> {
-    return (
-        <h1>Component Name</h1>
-    )
+import { Link } from "react-router-dom"
+
+function Header(props) {
+  return (
+    <nav className="nav">
+      <Link to="/">
+        <div>People App</div>
+      </Link>
+    </nav>
+  )
 }
-export default Header;
+
+export default Header

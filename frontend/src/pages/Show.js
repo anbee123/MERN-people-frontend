@@ -1,8 +1,6 @@
 const Show =()=> {
     return (
-        <div>
-
-        </div>
+       <h1>Show</h1>
     )
 }
 export default Show
